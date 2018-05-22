@@ -1,0 +1,11 @@
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\bin\Debug\Server.exe
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\bin\Debug\Server.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.exe
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.pdb
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\obj\Debug\Server.Form1.resources
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\bin\Debug\TCPLibrary.dll
+C:\Users\Robert\Documents\Visual Studio 2015\Projects\PS2\Server\Server\bin\Debug\TCPLibrary.pdb
