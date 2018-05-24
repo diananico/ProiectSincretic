@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,8 +23,8 @@ namespace Server
             comboBox1.SelectedIndex = 0;
         }
         int option;
-       
 
+        BlockingCollection<Int16> last_mag = new BlockingCollection<Int16>();
         Thread main_thread = null;
         private void client_handler(TcpClient client)
         {
@@ -35,16 +36,24 @@ namespace Server
             {
                 Console.WriteLine(i);
                 Console.WriteLine("Received: {0} {1} {2} {3}", buffer_receive[0], buffer_receive[1], buffer_receive[2], buffer_receive[3]);
-                
-                //LOGIC GOES HERE
-                TCP_VAR var1 = new TCP_VAR(buffer_receive);
-                buffer_send = var1.Calculate_Results(option);
-                
-                /*
-                for (int j = 0; j < i; j++)
-                    buffer_send[j] = (byte)(buffer_receive[j] + 1);
-               */
 
+                //LOGIC GOES HERE
+                if (buffer_receive[0] == 255 && buffer_receive[1] == 255 && buffer_receive[2] == 255 && buffer_receive[3] == 255)
+                {
+                    Int16 tmp = last_mag.Take();
+                    buffer_send = BitConverter.GetBytes(tmp);
+                    last_mag.Add(tmp);
+                }
+                else
+                {
+                    TCP_VAR var1 = new TCP_VAR(buffer_receive);
+                    buffer_send = var1.Calculate_Results(option);
+                    while (last_mag.Count > 0)
+                    {
+                        last_mag.Take();
+                    }
+                    last_mag.Add(BitConverter.ToInt16(buffer_send, 0));
+                }
                 TCP_API.send(client, buffer_send);
 
             }
