@@ -1,0 +1,12 @@
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS\Simulare\Simulare\bin\Debug\Simulare.exe.config
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\bin\Debug\Simulare.exe.config
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\bin\Debug\Simulare.exe
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\bin\Debug\Simulare.pdb
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.csprojResolveAssemblyReference.cache
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.Form1.resources
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.Properties.Resources.resources
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.csproj.GenerateResource.Cache
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.exe
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\obj\Debug\Simulare.pdb
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\bin\Debug\TCPLibrary.dll
+C:\Users\gl552j\Documents\Visual Studio 2012\Projects\PS2\Simulare\Simulare\bin\Debug\TCPLibrary.pdb
