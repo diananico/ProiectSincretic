@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+}
+.logoutbox{
+    height: 43px; 
+    padding: 0px;
+    background-color: #e1dddd;
+}
+
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.logoutbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    top: 4px;
+}
+
+.logoutbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.monitorizare{
+    background: url(bg1.png);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+    padding: 0px;
+    height: 610px;
+    width: 750px;
+}
+
+
