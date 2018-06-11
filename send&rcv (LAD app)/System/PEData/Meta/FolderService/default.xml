@@ -1,0 +1,561 @@
+<ProjectFolderServiceMeta>
+     <BLObjects />
+     <OtherCoreObjects>
+          <CoreType Name="Siemens.Automation.DomainModel.ProjectData" Id="49" CoreType="Siemens.Automation.DomainModel.ProjectData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.ControllerTargetData&amp;Offline" Id="51" CoreType="Siemens.Automation.DomainModel.ControllerTargetData" Subtype="" HasWildcard="False" OnlineCriterion="2" />
+          <CoreType Name="Siemens.Automation.DomainModel.EAMTZTagData" Id="52" CoreType="Siemens.Automation.DomainModel.EAMTZTagData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.SimaticConstantTagData" Id="53" CoreType="Siemens.Automation.DomainModel.SimaticConstantTagData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.LibraryData" Id="55" CoreType="Siemens.Automation.DomainModel.LibraryData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.HwConfiguration.Model.S7ControllerTargetData" Id="67" CoreType="Siemens.Simatic.HwConfiguration.Model.S7ControllerTargetData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.CodeBlockData" Id="70" CoreType="Siemens.Simatic.PlcLanguages.Model.CodeBlockData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.OnlineCodeBlockData" Id="71" CoreType="Siemens.Simatic.PlcLanguages.Model.OnlineCodeBlockData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.DataBlockData" Id="72" CoreType="Siemens.Simatic.PlcLanguages.Model.DataBlockData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.OnlineDataBlockData" Id="73" CoreType="Siemens.Simatic.PlcLanguages.Model.OnlineDataBlockData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.XRefAbsAddressNode" Id="74" CoreType="Siemens.Simatic.PlcLanguages.Model.XRefAbsAddressNode" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.IECPLLibraryTargetBlockData" Id="75" CoreType="Siemens.Simatic.PlcLanguages.Model.IECPLLibraryTargetBlockData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.UserTypeData" Id="77" CoreType="Siemens.Simatic.PlcLanguages.Model.UserTypeData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.OnlineUserTypeData" Id="78" CoreType="Siemens.Simatic.PlcLanguages.Model.OnlineUserTypeData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.FunctionBlockTemplateData" Id="79" CoreType="Siemens.Simatic.PlcLanguages.Model.FunctionBlockTemplateData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.SystemDatatypeData" Id="80" CoreType="Siemens.Simatic.PlcLanguages.Model.SystemDatatypeData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.OnlineControllerTargetData" Id="82" CoreType="Siemens.Automation.DomainModel.OnlineControllerTargetData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.TechnologicalFeatureData" Id="83" CoreType="Siemens.Simatic.PlcLanguages.Model.TechnologicalFeatureData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.OnlineTechnologicalFeatureData" Id="84" CoreType="Siemens.Simatic.PlcLanguages.Model.OnlineTechnologicalFeatureData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.VATViewerData" Id="86" CoreType="Siemens.Simatic.PlcLanguages.Model.VATViewerData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.PlcLanguages.Model.VarTableData" Id="87" CoreType="Siemens.Simatic.PlcLanguages.Model.VarTableData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.LibraryTypeData" Id="163" CoreType="Siemens.Automation.DomainModel.LibraryTypeData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.UserTextRangeListData" Id="165" CoreType="Siemens.Automation.DomainModel.UserTextRangeListData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.SystemTextRangeListData" Id="166" CoreType="Siemens.Automation.DomainModel.SystemTextRangeListData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.FolderData" Id="167" CoreType="Siemens.Automation.DomainModel.FolderData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Simatic.Hmi.Utah.Globalization.HmiImageData" Id="176" CoreType="Siemens.Simatic.Hmi.Utah.Globalization.HmiImageData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+          <CoreType Name="Siemens.Automation.DomainModel.ControllerTargetData" Id="195" CoreType="Siemens.Automation.DomainModel.ControllerTargetData" Subtype="" HasWildcard="False" OnlineCriterion="0" />
+     </OtherCoreObjects>
+     <CoreFolders>
+          <CoreFolder Name="DocumentationFolder" Id="233" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="False" IsClipboardSource="False" IconId="ICO_PE_DocumentationFolder" NameId="DocumentationFolderName" SubtypeIdentifier="DocumentationFolder" SortingPosition="20" NameResourceAssembly="Siemens.Automation.CommonPrintingGUI.dll" IconResourceAssembly="Siemens.Automation.CommonPrintingGUI.dll" NameResourceType="Siemens.Automation.CommonPrintingGUI.Resources.PrintSettingsViewResources" IconResourceType="Siemens.Automation.CommonPrintingGUI.Resources.PrintSettingsViewResources" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="0" ExcludeScopes="" BrowsableViewState="1" />
+          <CoreFolder Name="ControllerTagsFolder" Id="235" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="$this.ControllerTagsFolder.Icon" NameId="$this.ControllerTagsFolder.DefaultInstanceName" SubtypeIdentifier="ControllerTagsFolder" SortingPosition="f" NameResourceAssembly="Siemens.Automation.DomainServices.dll" IconResourceAssembly="Siemens.Automation.DomainServices.dll" NameResourceType="Siemens.Automation.DomainModel.FolderData" IconResourceType="Siemens.Automation.DomainModel.FolderData" BusinessLogic="Siemens.Automation.DomainServices.TagService.ControllerTagsFolderBL" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="4" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="CommonDataFolder" Id="237" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="False" IsClipboardSource="False" IconId="ICO_PE_CommonDataFolder" NameId="COMMONDATAFOLDER_NAME" SubtypeIdentifier="CommonDataFolder" SortingPosition="10" NameResourceAssembly="Siemens.Automation.DomainServices.dll" IconResourceAssembly="Siemens.Automation.DomainServices.dll" NameResourceType="Siemens.Automation.DomainServices.FolderService.FolderService" IconResourceType="Siemens.Automation.DomainServices.FolderService.FolderService" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="1" />
+          <CoreFolder Name="ProgramBlocksFolder" Id="239" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="IconSystemFolderProgramBlocks" NameId="SystemFolderProgramBlocksResX" SubtypeIdentifier="ProgramBlocksFolder" SortingPosition="c100" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="PlcLanguages.BlockLogic.FolderPrintSupport" SubpathPolicyValue="-1" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="2" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="ProgramBlocksFolder.Subfolder" Id="241" ContributesToObjectPath="False" IsCreatableByCommand="True" DeletableByCommand="True" RenamableByCommand="True" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="ICO_PE_GroupFolder" NameId="UserFolderDefaultNameResX" SubtypeIdentifier="ProgramBlocksFolder.Subfolder" SortingPosition="c100" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="-1" SubpathPolicy="0" SingletonBehaviour="0" SelfPasteBehaviour="1" ExcludeScopes="LifeListCardReader" BrowsableViewState="0" />
+          <CoreFolder Name="ControllerDataTypeFolder" Id="243" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="IconSystemFolderControllerDataTypes" NameId="SystemFolderControllerDataTypesResX" SubtypeIdentifier="ControllerDataTypeFolder" SortingPosition="i100" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="-1" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="TechnologicalParamFolder" Id="245" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="ICO_PE_MCSimTOFolder" NameId="SystemFolderTechnologicalParamResX" SubtypeIdentifier="TechnologicalParamFolder" SortingPosition="c150" NameResourceAssembly="Siemens.Simatic.Lang.TechnologicalParam.dll" IconResourceAssembly="Siemens.Simatic.Lang.TechnologicalParam.dll" NameResourceType="Siemens.Simatic.Lang.TechnologicalParam.Resources.GlobalStringResources" IconResourceType="Siemens.Simatic.Lang.TechnologicalParam.Resources.GlobalStringResources" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="-1" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="2" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="WatchtablesFolder" Id="247" ContributesToObjectPath="False" IsCreatableByCommand="False" DeletableByCommand="False" RenamableByCommand="False" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="IconSystemFolderWatchtables" NameId="SystemFolderWatchtablesResX" SubtypeIdentifier="WatchtablesFolder" SortingPosition="i200" NameResourceAssembly="Siemens.Simatic.Lang.VatService.dll" IconResourceAssembly="Siemens.Simatic.Lang.VatService.dll" NameResourceType="Siemens.Simatic.PlcLanguages.VatService.Resource.VatService" IconResourceType="Siemens.Simatic.PlcLanguages.VatService.Resource.VatService" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="-1" SubpathPolicy="0" SingletonBehaviour="1" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="ControllerTagsFolder.Subfolder" Id="249" ContributesToObjectPath="False" IsCreatableByCommand="True" DeletableByCommand="True" RenamableByCommand="True" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="ICO_PE_GroupFolder" NameId="UserfolderStandardName" SubtypeIdentifier="ControllerTagsFolder.Subfolder" SortingPosition="f" NameResourceAssembly="Siemens.Automation.DomainServices.dll" IconResourceAssembly="Siemens.Automation.Basics.dll" NameResourceType="Siemens.Automation.DomainServices.FolderService.FolderService" IconResourceType="Siemens.Automation.Basics.Icons" BusinessLogic="Siemens.Automation.DomainServices.TagService.ControllerTagsFolderBL" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="0" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="ControllerDataTypeFolder.Subfolder" Id="251" ContributesToObjectPath="False" IsCreatableByCommand="True" DeletableByCommand="True" RenamableByCommand="True" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="ICO_PE_GroupFolder" NameId="UserfolderStandardName" SubtypeIdentifier="ControllerDataTypeFolder.Subfolder" SortingPosition="i100" NameResourceAssembly="Siemens.Automation.DomainServices.dll" IconResourceAssembly="Siemens.Automation.Basics.dll" NameResourceType="Siemens.Automation.DomainServices.FolderService.FolderService" IconResourceType="Siemens.Automation.Basics.Icons" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="0" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="0" />
+          <CoreFolder Name="WatchtablesFolder.Subfolder" Id="253" ContributesToObjectPath="False" IsCreatableByCommand="True" DeletableByCommand="True" RenamableByCommand="True" NameIsLanguageDependant="True" IconIsLanguageDependant="True" IsClipboardTarget="True" IsClipboardSource="True" IconId="ICO_PE_GroupFolder" NameId="UserfolderStandardName" SubtypeIdentifier="WatchtablesFolder.Subfolder" SortingPosition="i200" NameResourceAssembly="Siemens.Automation.DomainServices.dll" IconResourceAssembly="Siemens.Automation.Basics.dll" NameResourceType="Siemens.Automation.DomainServices.FolderService.FolderService" IconResourceType="Siemens.Automation.Basics.Icons" BusinessLogic="Siemens.Automation.DomainServices.FolderService.StandardFolderBLObjectFactory" PrintSupport="EXPLICITNULL" SubpathPolicyValue="0" SubpathPolicy="0" SingletonBehaviour="0" SelfPasteBehaviour="1" ExcludeScopes="" BrowsableViewState="0" />
+     </CoreFolders>
+     <VirtualFolders>
+          <VirtualFolder Name="Siemens.Automation.LanguageSupportVirtualFolder" Id="255" NameId="HeadingLanguageSupportTree" TypeIdentifier="Siemens.Automation.LanguageSupportVirtualFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Automation.FrameApplication.dll" IconResourceAssembly="Siemens.Automation.FrameApplication.dll" NameResourceType="Siemens.Automation.FrameApplication.Localization.LanguageSetupEditor" IconResourceType="Siemens.Automation.FrameApplication.Localization.LanguageEditorSnapIn" IconId="ICO_PE_LanguageSupportFolder" SortingPosition="1" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="1" />
+          <VirtualFolder Name="Siemens.Automation.ProjectTextListsVirtualFolder" Id="256" NameId="HeadingLanguageTextListTree" TypeIdentifier="Siemens.Automation.ProjectTextListsVirtualFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Automation.FrameApplication.dll" IconResourceAssembly="Siemens.Automation.FrameApplication.dll" NameResourceType="Siemens.Automation.FrameApplication.Localization.TextListEditor" IconResourceType="Siemens.Automation.FrameApplication.Localization.LanguageEditorSnapIn" IconId="ICO_PE_TextList" SortingPosition="1" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="SystemTextListsView" AdditionalModelContentView="SystemTextListsView" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="TODO" AdditionalModelContentViewScopes="" PrintSupport="3" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="1" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="Siemens.Automation.CommonPrintObjects.TextListsPrintSupport" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="Siemens.Automation.TargetTextListsVirtualFolder" Id="257" NameId="HeadingLanguageTextListTree" TypeIdentifier="Siemens.Automation.TargetTextListsVirtualFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Automation.FrameApplication.dll" IconResourceAssembly="Siemens.Automation.FrameApplication.dll" NameResourceType="Siemens.Automation.FrameApplication.Localization.TextListEditor" IconResourceType="Siemens.Automation.FrameApplication.Localization.LanguageEditorSnapIn" IconId="ICO_PE_TextList" SortingPosition="p" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="3" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="3" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="Siemens.Automation.CommonPrintObjects.TextListsPrintSupport" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="Siemens.Automation.ProjectTextsVirtualFolder" Id="258" NameId="HeadingLanguageTextsTree" TypeIdentifier="Siemens.Automation.ProjectTextsVirtualFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Automation.FrameApplication.dll" IconResourceAssembly="Siemens.Automation.FrameApplication.dll" NameResourceType="Siemens.Automation.FrameApplication.Localization.LanguageTextEditor" IconResourceType="Siemens.Automation.FrameApplication.Localization.LanguageEditorSnapIn" IconId="ICO_PE_ProjectTexts" SortingPosition="1" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="3" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="Siemens.Automation.CommonPrintObjects.ProjectTextsPrintSupport" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="Siemens.Automation.ProjectLanguagesVirtualFolder" Id="259" NameId="HeadingLanguageSetupTree" TypeIdentifier="Siemens.Automation.ProjectLanguagesVirtualFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Automation.FrameApplication.dll" IconResourceAssembly="Siemens.Automation.FrameApplication.dll" NameResourceType="Siemens.Automation.FrameApplication.Localization.LanguageSetupEditor" IconResourceType="Siemens.Automation.FrameApplication.Localization.LanguageEditorSnapIn" IconId="ICO_PE_ProjectLanguage" SortingPosition="2" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="3" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="Siemens.Automation.CommonPrintObjects.ProjectLanguagesPrintSupport" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderBracket" Id="260" NameId="VirtualFolderBracketResX" TypeIdentifier="VirtualFolderBracket" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="Siemens.Simatic.Hmi.Utah.Globalization.HmiImage" Id="261" NameId="DisplayName" TypeIdentifier="Siemens.Simatic.Hmi.Utah.Globalization.HmiImage" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Hmi.Global.dll" IconResourceAssembly="Siemens.Simatic.Hmi.Global.dll" NameResourceType="Siemens.Simatic.Hmi.Utah.Globalization.FolderService" IconResourceType="Siemens.Simatic.Hmi.Utah.Globalization.FolderService" IconId="ICO_PE_Graphics" SortingPosition="zzzz" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="2" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="3" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="LocalModulesFolder" Id="262" NameId="LocalModulesCaption" TypeIdentifier="LocalModulesFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Hwcn.Application.dll" IconResourceAssembly="Siemens.Simatic.Hwcn.Application.dll" NameResourceType="Siemens.Simatic.HwConfiguration.Application.UserInterface.Basics.Common.Resources" IconResourceType="Siemens.Simatic.HwConfiguration.Application.UserInterface.Basics.Common.Resources" IconId="ICO_PE_LocalUnsortedFolder" SortingPosition="u" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualTagsFolder" Id="263" NameId="VirtualFolderTagsResX" TypeIdentifier="VirtualTagsFolder" Factory="Siemens.Simatic.PlcLanguages.TagTableViewer.VirtualFolderTagTableSnapIns" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderTags" SortingPosition="a" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="0" ClipboardTargetBehaviour="1" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="True" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualSystemDataFolder" Id="264" NameId="VirtualFolderSystemDataResX" TypeIdentifier="VirtualSystemDataFolder" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="a" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryOB" Id="265" NameId="VirtualFolderCategoryOBResX" TypeIdentifier="VirtualFolderCategoryOB" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryFB" Id="266" NameId="VirtualFolderCategoryFBResX" TypeIdentifier="VirtualFolderCategoryFB" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryFC" Id="267" NameId="VirtualFolderCategoryFCResX" TypeIdentifier="VirtualFolderCategoryFC" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryDB" Id="268" NameId="VirtualFolderCategoryDBResX" TypeIdentifier="VirtualFolderCategoryDB" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryUserGroups" Id="269" NameId="VirtualFolderCategoryUserGroupsResX" TypeIdentifier="VirtualFolderCategoryUserGroups" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryObjects" Id="270" NameId="VirtualFolderCategoryObjectsResX" TypeIdentifier="VirtualFolderCategoryObjects" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderPLCDatatypeCategoryObjects" Id="271" NameId="VirtualFolderCategoryObjectsResX" TypeIdentifier="VirtualFolderPLCDatatypeCategoryObjects" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+          <VirtualFolder Name="VirtualFolderCategoryTags" Id="272" NameId="VirtualFolderCategoryObjectsResX" TypeIdentifier="VirtualFolderCategoryTags" Factory="Siemens.Automation.DomainServices.FolderService.StandardVirtualFolderFactory" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" IconResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" IconId="IconVirtualFolderSystemData" SortingPosition="EXPLICITNULL" ClipboardSourceView="ProjectNavigator" NumberOfElementsView="ProjectNavigator" ModelContentView="ProjectNavigator" AdditionalModelContentView="ProjectNavigator" ClipboardSourceViewScopes="DetailsElementsView" NumberOfElementsViewScopes="DetailsViewElement" ModelContentViewScopes="" AdditionalModelContentViewScopes="" PrintSupport="0" ClipboardSourceBehaviour="3" ClipboardTargetBehaviour="0" ModelContentBehaviour="0" AdditionalModelContentBehaviour="0" AddNumberOfElements="False" PrintSupportId="" ExcludeScopes="irgendwas" BrowsableViewState="0" />
+     </VirtualFolders>
+     <Parent2CoreFolders>
+          <Rule Parent="49" Folder="233" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="DocumentationFolder2Siemens.Automation.DomainModel.ProjectData2DocumentationFolderName" CreationNameId="DocumentationFolderName" NameResourceAssembly="Siemens.Automation.CommonPrintingGUI.dll" NameResourceType="Siemens.Automation.CommonPrintingGUI.Resources.PrintSettingsViewResources" />
+          </Rule>
+          <Rule Parent="51" Folder="235" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="Siemens.Automation.DomainModel.ControllerTargetData&amp;Offline-&gt;ControllerTagsFolder-&gt;$this.ControllerTagsFolder.DefaultInstanceName" CreationNameId="$this.ControllerTagsFolder.DefaultInstanceName" NameResourceAssembly="Siemens.Automation.DomainServices.dll" NameResourceType="Siemens.Automation.DomainModel.FolderData" />
+          </Rule>
+          <Rule Parent="49" Folder="237" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="CommonDataFolder2Siemens.Automation.DomainModel.ProjectData2COMMONDATAFOLDER_NAME" CreationNameId="COMMONDATAFOLDER_NAME" NameResourceAssembly="EXPLICITNULL" NameResourceType="EXPLICITNULL" />
+          </Rule>
+          <Rule Parent="67" Folder="239" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="ProgramBlocksFolder2Siemens.Simatic.HwConfiguration.Model.S7ControllerTargetData2SystemFolderProgramBlocksResX" CreationNameId="SystemFolderProgramBlocksResX" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" />
+          </Rule>
+          <Rule Parent="239" Folder="241" Cardinality="-1" ParentPasteBehaviour="1" />
+          <Rule Parent="241" Folder="241" Cardinality="-1" ParentPasteBehaviour="1" />
+          <Rule Parent="67" Folder="243" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="ControllerDataTypeFolder2Siemens.Simatic.HwConfiguration.Model.S7ControllerTargetData2SystemFolderControllerDataTypesResX" CreationNameId="SystemFolderControllerDataTypesResX" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" />
+          </Rule>
+          <Rule Parent="67" Folder="245" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="TechnologicalParamFolder2Siemens.Simatic.HwConfiguration.Model.S7ControllerTargetData2SystemFolderTechnologicalParamResX" CreationNameId="SystemFolderTechnologicalParamResX" NameResourceAssembly="Siemens.Simatic.Lang.TechnologicalParam.dll" NameResourceType="Siemens.Simatic.Lang.TechnologicalParam.Resources.GlobalStringResources" />
+          </Rule>
+          <Rule Parent="82" Folder="245" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="51" Folder="247" Cardinality="-1" ParentPasteBehaviour="0">
+               <CreationRule Name="WatchtablesFolder2Siemens.Automation.DomainModel.ControllerTargetData&amp;Offline2SystemFolderWatchtablesResX" CreationNameId="SystemFolderWatchtablesResX" NameResourceAssembly="Siemens.Simatic.Lang.BlockLogic.dll" NameResourceType="Siemens.Simatic.PlcLanguages.BlockLogic.MenuService" />
+          </Rule>
+          <Rule Parent="235" Folder="249" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="249" Folder="249" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="243" Folder="251" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="251" Folder="251" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="247" Folder="253" Cardinality="-1" ParentPasteBehaviour="0" />
+          <Rule Parent="253" Folder="253" Cardinality="-1" ParentPasteBehaviour="0" />
+     </Parent2CoreFolders>
+     <Parent2VirtualFolders>
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="237" Folder="256" Cardinality="-1" RelationName="ProjectTextListsVirtualFolderRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="255" Folder="258" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="255" Folder="259" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="255" Folder="261" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="235" Folder="263" Cardinality="-1" RelationName="ControllerTagsToTagsFolder" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="272" Folder="263" Cardinality="-1" RelationName="CategoryTagsToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="239" Folder="265" Cardinality="-1" RelationName="VirtualFolderCategoryOBRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="239" Folder="266" Cardinality="-1" RelationName="VirtualFolderCategoryFBRelation" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="239" Folder="267" Cardinality="-1" RelationName="VirtualFolderCategoryFCRelation" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="239" Folder="268" Cardinality="-1" RelationName="VirtualFolderCategoryDBRelation" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+          <Rule Parent="49" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="163" Folder="255" Cardinality="-1" RelationName="LanguageSupportRelation" />
+          <Rule Parent="51" Folder="257" Cardinality="-1" RelationName="TargetTextListsVirtualFolderRelation" />
+          <Rule Parent="167" Folder="260" Cardinality="-1" RelationName="VirtualFolderBracketRelation" />
+          <Rule Parent="195" Folder="262" Cardinality="-1" RelationName="EXPLICITNULL" />
+          <Rule Parent="167" Folder="263" Cardinality="-1" RelationName="SubFolderToTagsFolder" />
+          <Rule Parent="67" Folder="264" Cardinality="-1" RelationName="OnlineSystemDataVirtualFolderRelation" />
+          <Rule Parent="167" Folder="265" Cardinality="-1" RelationName="SubFolderToOBFolder" />
+          <Rule Parent="167" Folder="266" Cardinality="-1" RelationName="SubFolderToFBFolder" />
+          <Rule Parent="167" Folder="267" Cardinality="-1" RelationName="SubFolderToFCFolder" />
+          <Rule Parent="167" Folder="268" Cardinality="-1" RelationName="SubFolderToDBFolder" />
+          <Rule Parent="167" Folder="269" Cardinality="-1" RelationName="VirtualFolderCategoryUserGroupsRelation" />
+          <Rule Parent="167" Folder="270" Cardinality="-1" RelationName="VirtualFolderCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="271" Cardinality="-1" RelationName="VirtualFolderPLCDatatypeCategoryObjectsRelation" />
+          <Rule Parent="167" Folder="272" Cardinality="-1" RelationName="ControllerTagsFolderToCategoryTags" />
+     </Parent2VirtualFolders>
+     <Folder2ElementRules>
+          <Rule Folder="235" Element="52" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="235" Element="53" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="70" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="71" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="72" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="73" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="74" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="239" Element="75" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="241" Element="70" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="241" Element="71" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="241" Element="72" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="241" Element="73" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="243" Element="77" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="243" Element="78" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="243" Element="79" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="243" Element="80" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="245" Element="83" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="245" Element="84" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="247" Element="86" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="247" Element="87" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="257" Element="165" Relation="TextLists" ReverseRelation="ReverseTargetTextListsVirtualFolder" ModelParentRelation="Parent" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="1" />
+          <Rule Folder="257" Element="166" Relation="TextLists" ReverseRelation="ReverseTargetTextListsVirtualFolder" ModelParentRelation="Parent" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="1" />
+          <Rule Folder="261" Element="176" Relation="ProjectToImage" ReverseRelation="VirtualFolderGraphics" ModelParentRelation="ImageToProject" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="249" Element="52" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="249" Element="53" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="251" Element="77" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="251" Element="78" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="251" Element="79" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="251" Element="80" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="253" Element="86" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+          <Rule Folder="253" Element="87" Relation="EXPLICITNULL" ReverseRelation="EXPLICITNULL" ModelParentRelation="EXPLICITNULL" FolderElementToFolderParentPasteBehaviour="0" RelationRefersTo="0" />
+     </Folder2ElementRules>
+</ProjectFolderServiceMeta>

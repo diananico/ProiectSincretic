@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Document Type="R:Document" XmlDataSource="TemplateDataBinding.xml" Tag="//TemplateDataBinding" GridStep="5" MetricUnit="Millimeter" Name="Document_A4_Portrait_Default_Simple" RenderInMemory="false">
+	<StyleSheet Type="R:StyleSheet" />
+	<Tocs Type="R:TocList" />
+	<Pages Type="R:PageList">
+		<Item Type="R:Page" Location="0; 0" Name="Portrait" Size="210; 297">
+			<Margins Type="F:Margins" Top="10" Left="20" Bottom="10" Right="10" />
+			<Controls Type="R:ControlList">
+				<Item Type="R:Shape" Location="20; 10" Size="180; 277" Name="01_OuterBorder" Line="0.35 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:Shape" Location="20; 10" Size="180; 14" Name="05_Textfield_Header_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="20; 10" Text="Totally Integrated Automation Portal" Font="Siemens Sans; 9.75pt" Name="05_Textfield_Product" Size="40; 14">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="1" Left="1" Bottom="1" Right="1" />
+					<Border Type="F:Border" All="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Now" Location="160; 10" Text="&lt;Date&gt;" TextAlign="TopRight" Font="Siemens Sans; 9.75pt" Name="05_Textfield_Date_Entry" Size="40; 14">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="1" Left="1" Bottom="1" Right="1" />
+					<Border Type="F:Border" All="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;ProjectPath" Location="60; 10" Text="&lt;Project&#xD;&#xA;Path&gt;" TextAlign="MiddleCenter" Font="Siemens Sans; 10pt" Name="05_Textfield_Project_Entry" Size="100; 14">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="1" Left="1" Bottom="1" Right="1" />
+					<Border Type="F:Border" All="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:Shape" Location="20; 280" Size="180; 7" Name="05_Textfield_Footer_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;PageNumber/&amp;PageCount" Location="170; 280" Text="&lt;PageNumber/PageCount&gt;" TextAlign="MiddleCenter" Font="Siemens Sans; 9.75pt" Name="05_Textfield_Footer_Entry" Size="30; 7">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="1" Left="1" Bottom="1" Right="1" />
+					<Border Type="F:Border" All="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:Shape" Location="25; 29" Visible="false" Size="170; 246" Name="MainPrintableArea" Line="0 None " Tag="_Locked">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+			</Controls>
+		</Item>
+	</Pages>
+</Document>

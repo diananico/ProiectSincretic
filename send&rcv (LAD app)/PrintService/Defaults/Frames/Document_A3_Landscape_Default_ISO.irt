@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Document Type="R:Document" XmlDataSource="TemplateDataBinding.xml" Tag="//TemplateDataBinding" GridStep="5" MetricUnit="Millimeter" Name="Document_A3_Landscape_Default_ISO" RenderInMemory="false">
+	<StyleSheet Type="R:StyleSheet" />
+	<Tocs Type="R:TocList" />
+	<Pages Type="R:PageList">
+		<Item Type="R:Page" Location="0; 0" PaperKind="A3" Orientation="Landscape" Name="Landscape" Size="420; 297">
+			<Margins Type="F:Margins" Top="5" Left="15" Bottom="5" Right="5" />
+			<Controls Type="R:ControlList">
+				<Item Type="R:Shape" Location="15; 5" Size="400; 287" Name="01_OuterBorder" Line="0.35 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:Shape" Location="20; 10" Size="390; 277" Name="02_InnerBorder" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 5" Text="1" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top1" Size="45; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="60; 5" Text="2" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top2" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="110; 5" Text="3" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top3" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="160; 5" Text="4" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top4" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="210; 5" Text="5" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top5" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="260; 5" Text="6" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top6" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="310; 5" Text="7" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top7" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="360; 5" Text="8" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Top8" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 5" Text="A" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftA" Size="5; 43.5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 48.5" Text="B" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftB" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 98.5" Text="C" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftC" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 148.5" Text="D" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftD" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 198.5" Text="E" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftE" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 248.5" Text="F" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_LeftF" Size="5; 43.5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 287" Text="1" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom1" Size="45; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="60; 287" Text="2" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom2" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="110; 287" Text="3" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom3" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="160; 287" Text="4" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom4" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="210; 287" Text="5" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom5" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="260; 287" Text="6" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom6" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="310; 287" Text="7" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom7" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" RightLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="360; 287" Text="8" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_Bottom8" Size="50; 5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="0" Left="3" Bottom="0" Right="3" />
+					<Border Type="F:Border" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 5" Text="A" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightA" Size="5; 43.5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 48.5" Text="B" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightB" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 98.5" Text="C" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightC" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 148.5" Text="D" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightD" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 198.5" Text="E" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightE" Size="5; 50">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" BottomLine="0.35 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="410; 248.5" Text="F" TextAlign="MiddleCenter" Font="Siemens Sans; 14pt" Name="10_FieldSeparator_RightF" Size="5; 43.5">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Margins Type="F:Margins" Top="3" Left="0" Bottom="3" Right="0" />
+					<Border Type="F:Border" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 257" Size="180; 30" Name="05_Textfield" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 257" Size="60; 8.6" Name="05_Textfield_Owner_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="230; 257" Text="Owner" Font="Siemens Sans; 6pt" Name="05_Textfield_Owner_Label" Size="20; 8.6">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Owner" Location="251; 257" Text="&lt;Owner&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Owner_Entry" Size="39; 8.6">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 265.6" Size="60; 8.6" Name="05_Textfield_Operator_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="230; 265.6" Text="Operator" Font="Siemens Sans; 6pt" Name="05_Textfield_Operator_Label" Size="20; 8.6">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Operator" Location="251; 265.6" Text="&lt;Operator&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Operator_Entry" Size="39; 8.6">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 274.2" Size="60; 4.3" Name="05_Textfield_DesignedBy_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="230; 274.2" Text="Designed by - Date" Font="Siemens Sans; 6pt" Name="05_Textfield_DesignedBy_Label" Size="20; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;DesignedBy" Location="251; 274.2" Text="&lt;Designed by - Date&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_DesignedBy_Entry" Size="39; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 278.5" Size="60; 4.3" Name="05_Textfield_CheckedBy_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="230; 278.5" Text="Checked by - Date" Font="Siemens Sans; 6pt" Name="05_Textfield_CheckedBy_Label" Size="20; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;CheckedBy" Location="251; 278.5" Text="&lt;Checked by - Date&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_CheckedBy_Entry" Size="39; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="230; 282.8" Size="60; 4.2" Name="05_Textfield_ApprovedBy_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="230; 282.8" Text="Approved by - Date" Font="Siemens Sans; 6pt" Name="05_Textfield_ApprovedBy_Label" Size="20; 4.2">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;ApprovedBy" Location="251; 282.8" Text="&lt;Approved by - Date&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_ApprovedBy_Entry" Size="39; 4.2">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 257" Size="90; 4.3" Name="05_Textfield_ProjectName_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 257" Text="Project name" Font="Siemens Sans; 6pt" Name="05_Textfield_ProjectName_Label" Size="17; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;ProjectName" Location="308; 257" Text="&lt;Project name&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_ProjectName_Entry" Size="72; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 261.3" Size="120; 8.6" Name="05_Textfield_ProjectPath_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 261.3" Text="Project path" Font="Siemens Sans; 6pt" Name="05_Textfield_ProjectPath_Label" Size="17; 8.6">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;ProjectPath" Location="308; 261.3" Text="&lt;Project path&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_ProjectPath_Entry" Size="102; 8.6">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 269.9" Size="120; 4.3" Name="05_Textfield_Location_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 269.9" Text="Location (LID)" Font="Siemens Sans; 6pt" Name="05_Textfield_Location_Label" Size="17; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Location" Location="308; 269.9" Text="&lt;Location (LID)&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Location_Entry" Size="102; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 274.2" Size="120; 4.3" Name="05_Textfield_Description1_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 274.2" Text="Description 1st" Font="Siemens Sans; 6pt" Name="05_Textfield_Description1_Label" Size="17; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Description1" Location="308; 274.2" Text="&lt;Description 1st&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Description1_Entry" Size="102; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 278.5" Size="60; 4.3" Name="05_Textfield_Description2_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 278.5" Text="Description 2nd" Font="Siemens Sans; 6pt" Name="05_Textfield_Description2_Label" Size="17; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Description2" Location="308; 278.5" Text="&lt;Description 2nd&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Description2_Entry" Size="42; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="290; 282.8" Size="60; 4.2" Name="05_Textfield_FirstView_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="290; 282.8" Text="1st View" Font="Siemens Sans; 6pt" Name="05_Textfield_FirstView_Label" Size="17; 4.2">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;FirstView" Location="308; 282.8" Text="&lt;1st View&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_FirstView_Entry" Size="42; 4.2">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="350; 278.5" Size="60; 4.3" Name="05_Textfield_Language_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="350; 278.5" Text="Language" Font="Siemens Sans; 6pt" Name="05_Textfield_Language_Label" Size="12; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Language" Location="363; 278.5" Text="&lt;Language&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Language_Entry" Size="47; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="350; 282.8" Size="30; 4.2" Name="05_Textfield_Version_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="350; 282.8" Text="Version" Font="Siemens Sans; 6pt" Name="05_Textfield_Version_Label" Size="12; 4.2">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Version" Location="363; 282.8" Text="&lt;Version&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Version_Entry" Size="17; 4.2">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="380; 257" Size="30; 4.3" Name="05_Textfield_Date_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="380; 257" Text="Date" Font="Siemens Sans; 6pt" Name="05_Textfield_Date_Label" Size="8; 4.3">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;Now" Location="389; 257" Text="&lt;Date&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Date_Entry" Size="21; 4.3">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="380; 282.8" Size="30; 4.2" Name="05_Textfield_Sheet_Border" Line="0.7 Solid Black">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="380; 282.8" Text="Sheet" Font="Siemens Sans; 6pt" Name="05_Textfield_Sheet_Label" Size="8; 4.2">
+					<TextFill Type="F:SolidFill" Color="DimGray" />
+				</Item>
+				<Item Type="R:TextBox" Tag="&amp;PageNumber/&amp;PageCount" Location="389; 282.8" Text="&lt;Sheet&gt;" TextAlign="BottomLeft" Font="Siemens Sans; 7pt" Name="05_Textfield_Sheet_Entry" Size="21; 4.2">
+					<TextFill Type="F:SolidFill" Color="Black" />
+				</Item>
+				<Item Type="R:Shape" Location="25; 15" Visible="false" Size="380; 237" Name="MainPrintableArea" Line="0 None " Tag="_Locked">
+					<ShapeStyle Type="F:RectangleShape" />
+				</Item>
+				<Item Type="R:TextBox" Location="15; 148.5" Name="10_FieldSeparator_MarkerLeft" Size="15; 1">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Border Type="F:Border" TopLine="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="400; 148.5" Name="10_FieldSeparator_MarkerRight" Size="15; 1">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Border Type="F:Border" TopLine="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="210; 5" Name="10_FieldSeparator_MarkerTop" Size="1; 15">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Border Type="F:Border" LeftLine="0.7 Solid Black" />
+				</Item>
+				<Item Type="R:TextBox" Location="210; 277" Name="10_FieldSeparator_MarkerBottom" Size="1; 15">
+					<TextFill Type="F:SolidFill" Color="Black" />
+					<Border Type="F:Border" LeftLine="0.7 Solid Black" />
+				</Item>
+			</Controls>
+		</Item>
+	</Pages>
+</Document>

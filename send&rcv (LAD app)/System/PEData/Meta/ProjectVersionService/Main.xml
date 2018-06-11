@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ProductInstallationInfo xmlns="http://www.siemens.com/Automation/2006/11/VersionService/VersionInfo" xsi:schemaLocation="http://www.siemens.com/Automation/2006/11/VersionService/VersionInfo Automation-VersionService-VersionInfo-V1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!--  ==========================================================================
+  
+          This is the VersionInfo file for the Totally Integrated Automation Portal (Platform Engineering) product.
+  
+        ==========================================================================
+  -->
+
+  <!--  EditionVersionInfo :
+        - Must be filled for the edition-funding product, i.e. the PE,
+          which will be installed first of all.
+  -->
+  <EditionVersionInfo>
+    <!--  EditionID : This is the name of the edition.  -->
+      <EditionID DisplayName="Totally Integrated Automation Portal">TIAP10</EditionID>
+    
+    <!--  EditionVersion : The syntax is "MainVersion.ServiceReleaseVersion"  -->
+      <EditionVersion DisplayVersion="10.5 SP2">10.0</EditionVersion>
+
+    <!--  ProjectVersion : The syntax is "MainVersion.ServiceReleaseVersion"  
+          - Lists all supported project versions of the edition. A single product may support further
+            project versions. But this here is the minimum requirement for all prodmeinucts.
+          - Number of occurences : 1 .. unbounded
+    -->
+    <ProjectVersion DisplayVersion="10.5 SP2">1.1</ProjectVersion>    
+  </EditionVersionInfo>
+
+
+  <!--  
+        ProductVersionInfo : This is the root node for the description of the products.  
+  -->
+  <ProductVersionInfo>
+      <!--  ProductID : This is the name of the product.  -->
+      <ProductID DisplayName="Totally Integrated Automation Portal Basic V10" IsHidden="true">A&amp;D Engineering Platform</ProductID>
+
+      <!-- InstallationVersion : The syntax is "MainVersion.ServiceReleaseVersion.ServicePackVersion.HotFixVersion"  -->
+      <InstallationVersion DisplayVersion="10.5 SP2">1.5.0.0</InstallationVersion>
+
+      <!--  DataVersion :
+            - Lists all supported data versions of the product. 
+            - A data version is related to the internal object model of a product. 
+              So the numbering of data versions is done for each product independently.
+            - Number of occurences : 1 .. unbounded
+            
+            - The syntax is "MainVersion.ServiceReleaseVersion.ServicePackVersion.HotFixVersion" 
+            - Attribute AccessMode (optional) : rw = Read+Write (default), r = ReadOnly
+            - Attribute IsDefault (optional) : yes, no (default)
+      -->
+      <DataVersion AccessMode="rw" IsDefault="yes" Version="1.1.0.0">
+        <!--  PE Basis -->
+        <DataPackage PackageID="Siemens.Automation.ObjectFrame.Core" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Automation.DomainModel" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Automation.DomainModel.MyPC" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Automation.Scripting.Model" PackageVersion="1.0.0.0" />
+
+        <!-- HWCN - map to PE -->
+        <DataPackage PackageID="Siemens.Simatic.HwConfiguration.Model" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Simatic.HwConfiguration.Online.Model" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Simatic.SystemDiagnosis.Model" PackageVersion="1.1.0.0" />
+
+        <!-- Alarms - map to PE-->
+        <DataPackage PackageID="Siemens.Simatic.AlarmServices.ObjectFrame" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Simatic.AlarmServices.ObjectFrame.S7300S7400" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Simatic.AlarmServices.ObjectFrame.S7400" PackageVersion="1.1.0.0" />
+        <DataPackage PackageID="Siemens.Simatic.AlarmServices.ObjectFrame.S7500S71200" PackageVersion="1.1.0.0" />
+      </DataVersion>
+
+
+      <!--  ProjectVersionInfo : 
+            - Lists all supported project versions of the product.
+            - Number of occurences : 1 .. unbounded
+      -->
+      <ProjectVersionInfo>
+         <!--  ProjectVersion : The syntax is "MainVersion.ServiceReleaseVersion"  -->
+         <ProjectVersion>1.1</ProjectVersion>
+         
+         <!--  DataVersion : This is the default data version for this ProjectVersion.
+              - It must be contained in the above list of all data versions.
+        -->
+         <DataVersion AccessMode="rw" IsDefault="yes" Version="1.1.0.0" />
+      </ProjectVersionInfo>
+
+   <InstallationFeatures><Feature><Name>Lang_1033</Name><Value>1033</Value><DisplayValue>English (United States)</DisplayValue></Feature></InstallationFeatures></ProductVersionInfo>
+<ProductVersionInfo>
+      <ProductID DisplayName="SIMATIC WinCC Basic">HMIFESBASIC</ProductID>
+      <InstallationVersion DisplayVersion="10.5 SP2">1.5.2.0</InstallationVersion>
+      <DataVersion AccessMode="rw" IsDefault="yes" Version="1.1.0.0">
+         <DataPackage PackageID="Dynamics" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="Es2rtCoreObject" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiAlarm" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiBase" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiCommunication" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiCurve" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiCycle" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiDevice" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiFontItem" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiFontList" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiGraphX" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiInternalImage" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiImage" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiJob" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiRecipe" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiReport" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiRTSecurity" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiScripting" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiScreenModules" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiUserArchive" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiTag" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiText" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="HmiTextAndGraphicLists" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="Logging" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="SettingsEditor" PackageVersion="1.1.0.0" />
+         <DataPackage PackageID="ScreenNavigation" PackageVersion="1.1.0.0" />
+      </DataVersion>
+
+      <ProjectVersionInfo>
+         <ProjectVersion>1.1</ProjectVersion>
+	 <DataVersion IsDefault="yes" AccessMode="rw" Version="1.1.0.0" />
+      </ProjectVersionInfo>
+
+   <InstallationFeatures><Feature><Name>Lang_1033</Name><Value>1033</Value><DisplayValue>English (United States)</DisplayValue></Feature></InstallationFeatures></ProductVersionInfo><ProductVersionInfo>
+		<ProductID DisplayName="SIMATIC STEP 7 Basic">STEP7BASIC</ProductID>
+    <InstallationVersion DisplayVersion="10.5 SP2">1.5.2.0</InstallationVersion>
+    <DataVersion AccessMode="rw" IsDefault="yes" Version="1.1.0.0">
+			<DataPackage PackageID="Iecpl" PackageVersion="1.1.0.0" />
+		</DataVersion>
+
+		<ProjectVersionInfo>
+			<ProjectVersion>1.1</ProjectVersion>
+			<DataVersion IsDefault="yes" AccessMode="rw" Version="1.1.0.0" />
+		</ProjectVersionInfo>
+
+	<InstallationFeatures><Feature><Name>Lang_1033</Name><Value>1033</Value><DisplayValue>English (United States)</DisplayValue></Feature></InstallationFeatures><RegInstalledVersion><DisplayName>SIMATIC STEP 7 Basic</DisplayName><Version>V10.5 SP2</Version><Release>K10.05.02.00_01.12.00.01</Release><ReleaseNr>K10.5.2.0</ReleaseNr></RegInstalledVersion></ProductVersionInfo></ProductInstallationInfo>
